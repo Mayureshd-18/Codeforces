@@ -1,0 +1,16 @@
+
+bal = input()
+ 
+if int(bal)<0:
+ 
+    a = bal[:-1]
+    # print(a)
+ 
+    b = bal[:-2] + bal[-1]
+    # print(b)
+ 
+    res = max(int(a), int(b))
+else:
+    res = bal
+    
+print(res)
